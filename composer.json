@@ -23,16 +23,46 @@
     "asgardcms/page-module": "~1.0",
     "asgardcms/menu-module": "~1.0",
     "asgardcms/workshop-module": "~1.0",
-    "asgardcms/translation-module": "~1.0",
     "asgardcms/flatly-theme": "~1.0",
-    "asgardcms/adminlte-theme": "~1.0"
+    "asgardcms/adminlte-theme": "~1.0",
+    "guzzlehttp/guzzle": "~5.0",
+    "kzykhys/git": "dev-patch-1",
+    "daylerees/kurenai": "~1.0",
+    "michelf/php-markdown": "~1.4",
+    "knplabs/github-api": "~1.2",
+    "pda/pheanstalk": "~3.0",
+    "bugsnag/bugsnag-laravel": "1.4.2",
+    "predis/predis": "~1.1@dev",
+    "mailchimp/mailchimp": "2.0.6",
+    "asgardcms/blog-module": "~1.0",
+    "asgardcms/translation-module": "^1.6",
+    "spatie/laravel-backup": "^2.8",
+    "league/flysystem-aws-s3-v3": "~1.0",
+    "lord/laroute": "^2.1",
+    "knplabs/packagist-api": "^1.3",
+    "asgardcms/block": "^1.11"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
     "phpspec/phpspec": "~2.1",
-    "barryvdh/laravel-debugbar": "~2.0"
+    "barryvdh/laravel-ide-helper": "~2.0@dev",
+    "barryvdh/laravel-debugbar": "~2.0",
+    "behat/behat": "~3.0@dev",
+    "behat/mink": "~1.7@dev",
+    "behat/mink-extension": "~2.0@dev",
+    "laracasts/behat-laravel-extension": "dev-master",
+    "deployer/deployer": "~3.0",
+    "deployphp/recipes": "~3.0"
   },
   "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.cartalyst.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nWidart/PHPGit"
+    },
     {
       "type": "vcs",
       "url": "https://github.com/nWidart/modules"
